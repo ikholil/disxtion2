@@ -3,13 +3,13 @@ import Title from '../other/Title';
 
 const Contact = () => {
     return (
-        <div className='grid h-[88vh] items-center grid-cols-12 mx-4 sm:mx-14 md:mx-20 2xl:mx-72'>
+        <div className='grid h-full mb-10 lg:h-[88vh] items-center  grid-cols-12 mx-4 sm:mx-14 md:mx-20 2xl:mx-72'>
             <div className=' col-span-12 lg:col-span-7'>
                 <Title text='Let’s work together' />
-                <h2 className='text-white text-[43px] mt-9 font-bold'>Get in touch with me</h2>
+                <h2 className='text-white text-24 md:text-[43px] mt-9 font-bold'>Get in touch with me</h2>
                 <p className='text-small text-secondary leading-7 pr-10 mt-4'>I’m interested in freelance opportunities – especially ambitious or large projects. However, if you have other request or question, don’t hesitate to use the form.</p>
             </div>
-            <div className='col-span-12 lg:col-span-5 mt-20 lg:mt-0 p-[20px] sm:p-[60px] bg-card'>
+            <div className='col-span-12 lg:col-span-5 pb-10 mt-20 lg:mt-0 p-5 sm:p-[25px] 2xl:p-[60px] bg-card'>
                 <form>
                     <div className="relative z-0 mb-6 w-full group">
                         <input type="email" name="floating_email" id="floating_email" className="block custom-input border-none py-3 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600  focus:outline-none focus:ring-0   peer" placeholder=" " required />
