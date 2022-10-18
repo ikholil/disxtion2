@@ -4,6 +4,23 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@layer components{
+  .text-primary{
+    @apply text-[#64FFDA]
+  }
+  .text-secondary{
+    @apply text-[#CCD6F6]
+  }
+  .text-body{
+    @apply text-[#0A192E]
+  }
+  .text-tab{
+    @apply text-[#132742]
+  }
+  .text-card{
+    @apply text-[#112240]
+  }
+}
 
 html,
 body {
@@ -43,15 +60,7 @@ a {
   bottom: -50px;
   left: -40px;
 }
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
+
 .bg-profile{
   background-image: url(../public/profile.png);
   background-repeat: no-repeat;
@@ -81,10 +90,17 @@ a {
   border-bottom: 1px solid #4D5970;
 
 }
+
+
+
+
+
+
+
 @media (max-width:1200px){
   .bg-profile{
     background-position: bottom;
-    background-size: 800px;
+    background-size: 700px;
     background-position: right;
   }
 }

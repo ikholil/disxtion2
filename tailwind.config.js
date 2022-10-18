@@ -7,13 +7,7 @@ module.exports = {
     "./public/**/*.html",
   ],
   theme: {
-    colors: {
-      'primary': '#64FFDA',
-      'secondary':'#CCD6F6',
-      'body':'#0A192E',
-      'tab':'#132742',
-      'card':'#112240'
-    },
+   
     fontSize:{
       'small':'18px',
       'title':'138px',
@@ -33,6 +27,6 @@ module.exports = {
     },
   },
   plugins: [
-    require("flowbite/plugin")
+   
   ],
 }
