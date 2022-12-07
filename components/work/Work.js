@@ -13,7 +13,7 @@ const Work = () => {
           <Title text="Some Things I’ve Built" />
         </div>
         {featuredProject.map((project, index) => (
-          <div className={`flex gap-4 lg:gap-10 lg:mb-10 ${project.id % 2 == 0 && 'flex-row-reverse'}`}>
+          <div key={project.id} className={`flex gap-4 lg:gap-10 lg:mb-10 ${project.id % 2 == 0 && 'flex-row-reverse'}`}>
             <div
               key={project.name}
               className={`col-span-12 project w-[100%] lg:col-span-7 `}
@@ -23,6 +23,7 @@ const Work = () => {
                 width={600}
                 height={400}
                 layout="responsive"
+                alt="project img"
               />
             </div>
             <div className={`col-span-12 project grid items-center lg:col-span-5`}>

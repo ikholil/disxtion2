@@ -35,8 +35,8 @@ const Tabs = () => {
                 <p className="text-secondary my-5">{tab.time}</p>
                 <div className="flex flex-col">
                   {
-                    tab.role.map(item => (
-                        <div className="flex mb-4">
+                    tab.role.map((item, i) => (
+                        <div key={i} className="flex mb-4">
                     <div className="p-[10px]">
                       <BsPlay className="text-primary" />
                     </div>
