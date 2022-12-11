@@ -2,7 +2,7 @@ import React from "react";
 import Title from "../other/Title";
 const HomePage = () => {
   return (
-    <div className="grid w-full overflow-x-hidden overflow-y-hidden h-full bg-profile items-center justify-between">
+    <div className="grid w-full overflow-x-hidden overflow-y-hidden h-full bg-profile items-center justify-between bg-[url('/profile.png')]">
       <div className="mx-8 col-span-7 my-6 sm:my-0 sm:w-screen sm:mx-10 md:mx-16 2xl:mx-52  md:-mt-20">
         <h3 className="text-primary -mb-2 text-[25px] md:text-32">
           Freelance Web Developer

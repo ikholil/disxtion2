@@ -62,7 +62,7 @@ a {
 }
 
 .bg-profile{
-  background-image: url('../public/profile.png');
+  
   background-repeat: no-repeat;
   background-position: right;
   background-size: 1000px;

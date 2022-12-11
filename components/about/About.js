@@ -4,7 +4,7 @@ import Title from '../other/Title';
 
 const About = () => {
     return (
-        <div className='max-h-screen bg-profile'>
+        <div className="max-h-screen bg-profile bg-[url('/profile.png')]">
             <div className='grid gap-4 grid-cols-12 items-center justify-center sm:mx-10 md:mx-16 2xl:mx-52  mx-8 overflow-x-hidden'>
                 <div className='col-span-12 grid items-center xl:mt-20 xl:h-[70vh] lg:col-span-7'>
                     <Title text='About Me' />
