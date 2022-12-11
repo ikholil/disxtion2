@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import Title from "../other/Title";
 import Image from "next/image";
 import { TbExternalLink } from "react-icons/tb";
@@ -46,51 +45,7 @@ const Work = () => {
             </div>
           </div>
         ))}
-        {/* ==================== Project 1 ============= */}
-
-        {/* ==================== Project 2 ============= */}
-
-        {/* <div className='col-span-12 lg:col-span-5'>
-                    <p className='text-primary text-24'>Featured Project</p>
-                    <h1 className='text-32 md:text-57 text-white mt-2 font-bold'>QuickerPoll</h1>
-                    <p className='text-secondary text-small my-3 text-justify'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tellus ipsum ipsum turpis habitasse consequat ut sit. Facilisis amet libero risus aliquet diam. </p>
-                    <div className='flex justify-around text-secondary border-1 border-secondary rounded-lg mt-10 text-sm p-3'>
-                        <span>VS CODE</span>
-                        <span>SUBLIME TEXT</span>
-                        <span>ATOM</span>
-                        <span>ITERM2</span>
-                        <span>HYPER</span>
-                    </div>
-                    <div className='flex mt-8 gap-5'>
-                        <RiGithubLine className='text-secondary' size={35} />
-                        <TbExternalLink className='text-secondary' size={35} />
-                    </div>
-                </div>
-                <div className='col-span-12 w-[100%] lg:col-span-7'>
-                    <Image src='/project2.png' width={600} height={400} layout='responsive' />
-                </div>
-               
-                <div className='col-span-12 w-[100%] lg:col-span-7'>
-                    <Image src='/project3.png' width={600} height={400} layout='responsive' />
-                </div>
-                <div className='col-span-12 lg:col-span-5'>
-                    <p className='text-primary text-24'>Featured Project</p>
-                    <h1 className='text-32 md:text-57 text-white mt-2 font-bold'>QuickerPoll</h1>
-                    <p className='text-secondary text-small my-3 text-justify'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tellus ipsum ipsum turpis habitasse consequat ut sit. Facilisis amet libero risus aliquet diam. </p>
-                    <div className='flex justify-around text-secondary border-1 border-secondary rounded-lg mt-10 text-sm p-3'>
-                        <span>VS CODE</span>
-                        <span>SUBLIME TEXT</span>
-                        <span>ATOM</span>
-                        <span>ITERM2</span>
-                        <span>HYPER</span>
-                    </div>
-                    <div className='flex mt-8 gap-5'>
-                        <RiGithubLine className='text-secondary' size={35} />
-                        <TbExternalLink className='text-secondary' size={35} />
-                    </div>
-                </div> */}
-
-        {/* Project 3 end */}
+       
       </div>
       <div className="mx-4 sm:mx-10 md:mx-20 2xl:mx-72 ">
         <h1 className="text-white text-[40px] md:text-[76px] font-bold text-center mt-10 xl:mt-[240px]">

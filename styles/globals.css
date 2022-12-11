@@ -62,7 +62,7 @@ a {
 }
 
 .bg-profile{
-  background-image: url(../public/profile.png);
+  background-image: url('../public/profile.png');
   background-repeat: no-repeat;
   background-position: right;
   background-size: 1000px;
@@ -92,11 +92,6 @@ a {
 }
 
 
-
-
-
-
-
 @media (max-width:1200px){
   .bg-profile{
     background-position: bottom;
@@ -123,6 +118,5 @@ a {
   .bg-profile{
     background-position: bottom;
     background-size: 400px;
-    
   }
 }
